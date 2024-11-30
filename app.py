@@ -107,8 +107,8 @@ class NotesWindow(QtWidgets.QMainWindow):
             self.ui.lineEdit.clear()
             self.ui.pushButton_6.setText("Шукати замітки по тегу")
 
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    mainWindow = NotesWindow()
-    mainWindow.show()
-    sys.exit(app.exec_())
+import sys
+app = QtWidgets.QApplication(sys.argv)
+mainWindow = NotesWindow()
+mainWindow.show()
+sys.exit(app.exec_())
